@@ -1,8 +1,4 @@
-# remotestorage browser example
-This app lets you browse the files on your remotestorage
+#attempt to make (https://github.com/rogerwang/node-webkit)[Node Webkit] app of (https://github.com/nilclass/remotestorage-browser-example)[RemoteStorage Browser]
 
-# Known bugs
-
-* you seem to have to refresh the page to see real-time updates from, say, My Favorite Drinks
-* binary data is not supported
-* app icon and favicon are missing
+#Known bugs
+- remotestorage doesn't like that `document location` doesn't start by `https`
